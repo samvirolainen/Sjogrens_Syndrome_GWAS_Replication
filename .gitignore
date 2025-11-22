@@ -1,11 +1,43 @@
 <<<<<<< HEAD
+
+# Ignore Raw Data 
+data/raw/
+data/raw/*
+
+# Any large text-based genomic data
+*.tsv
+*.tsv.gz
+*.txt
+*.txt.gz
+*.vcf
+*.vcf.gz
+*.bed
+*.bed.gz
+*.bim
+*.fam
+*.fastq
+*.fastq.gz
+*.bam
+*.bam.bai
+*.sam
+*.fa
+*.fasta
+*.fasta.gz
+*.h5
+*.hdf5
+
+# Ignore processed intermediate files
+data/processed/
+data/processed/*
+
 # History files
 .Rhistory
 .Rapp.history
 
 # Session Data files
-.RData
-.RDataTmp
+*.rds
+*.RData
+*.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -40,6 +72,12 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# Ignore RStudio machinery
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
 # pkgdown site
 docs/
 
@@ -48,6 +86,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+#Ignore System Files 
+.DS_Store
+Thumbs.db
 =======
-data/
->>>>>>> Initial project structure with README , .gitignore , LICENSE, scripts,  and results folders
+
