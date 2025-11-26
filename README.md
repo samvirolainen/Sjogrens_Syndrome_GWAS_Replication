@@ -24,6 +24,6 @@ This project uses a reproducible conda environment (see `environment.yml`):
 ```bash
 conda env create -f environment.yml
 conda activate coloc_r_env
-
+```
 ## License
 This project’s code is released under the MIT License (see `LICENSE`).
