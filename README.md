@@ -1,13 +1,13 @@
-# Colocalization of Autoimmune Risk Loci with Quantitative Trait Loci (QTLs) 
+# Identifying a role for _IRF5_ in Sjögren's Syndrome using Human Genetics and Multi-Omics Data 
 
 ## 🧬 Scientific Rationale 
-Autoimmune diseases such as Lupus (SLE), Juvenile Idiopathic Arthritis (JIA), and Sjögren's Syndrome result from a complex combination of genetic and environmental facotrs. Because of this complexity, identifying drug targets and targetable pathways for autoimmune diseases is often difficult. Genetic studies can provide clues of the specific genes, pathways, and cell-specific mediators of a specific disease. This project leverages human genetic data to 1) Identify risk genes and pathways driving risk for autoimmune diseases 
-and 2) Propose how these risk genes contribute to disease and in which cell types they are important 
+Sjögren's Syndrome (SS) is a complex autoimmune disease that is characterized by inflammation and tissue destruction of the salivary and lacrimal glands, though many patients also experience extraglandular symptoms including synovitis and interstitial lung disease (PMID: 36914790). The etiology of the disease is complex, with a combination of genetic and environmental factors playing a role in disease risk and pahtogenesis. Twin studies show a monozygotic twin concordance rate of ~30%, indicating a modest but important role of genetics in disease risk. Prior Genome-Wide Association Studies (GWAS) have identified several key risk loci for SS, including  _IRF5-TNPO3_, _TYK2_, and _STAT4_. Post-GWAS analyses, such as colocalization, can nominate molecular mechanisms by which these loci increase risk for SS. This goal of this project is to replicate the SS association at the _IRF5-TPNO3_ locus and perform post-GWAS analyses to identify a role of IRF5 in the genetic risk for SS.  
 
 ## Project Goals 
-- Identify and quality control Genome-Wide Association Study (GWAS) data for specific autoimmune diseases and perform fine mapping to identify causal risk variants 
-- Identify Quantitative Trait Loci (QTL) data (matched by genetic ancestry and genome bulild to the GWAS data) from relevant tissues and perform fine mapping to identify the variants driving the QTL signal 
-- Perform colocalization analysis and identify risk variants driving genotype-dependent gene expression (eQTL) and protien abundance (pQTL)
+- Quality Control (QC) a GWAS dataset for SS and replicate associations from the dataset
+- Replicate GWAS QC plots: Quantile-Quantile (QQ) plot, Manhattan Plot 
+- Identify genome-wide significant variants at the _IRF5-TNPO3_ locus and curate data for post-GWAS analysis 
+- Perform colocalization analysis and identify SS risk variants at the _IRF5-TNPO3_ locus  driving genotype-dependent gene expression (eQTL) and protien abundance (pQTL)
 
 ## Why is this Approach Useful for Target Identification and Drug Development? 
 This approach nominates specific immune pathways that are important for autoimmmune disease pathogenesis and prioritizes relevant cell-types in these pathways. In early discovery, this information can be used to inform the development of pre-clinical platforms (in vitro/in vivo/ex vivo models) to validate potential disease targets. 
