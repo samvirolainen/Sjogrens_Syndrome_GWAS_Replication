@@ -19,10 +19,10 @@ Raw and processed data from the publication are **not distributed** in this repo
 Users must obtain data directly from the original publication and associated repositories.
 
 ## Dataset Overview
-The GWAS data in this project are from Taylor KE, et al and are availble under accession GCST012796 in the GWAS Catalog. The dataset contains 585 pSS cases and 1546 controls of European Acestry. The study design analytical strategy are available in the methods section of the publication: https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.40040. 
+The GWAS data in this project are from Taylor KE, et al and are availble under accession GCST012796 in the GWAS Catalog. The dataset contains 585 pSS cases and 1546 controls (both of European Acestry). The study design analytical strategy are available in the methods section of the publication: https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.40040. 
 
 ## Project Organization (Notebooks written in R Markdown) 
-- Notebook 1: Download and Prepare GWAS
+- Notebook 1: Download and Prepare GWAS Data 
 - Nobteook 2: Harmonize and Clean GWAS Data
 - Notebook 3: GWAS Visualization
 - Notebook 4: _IRF5_ Locus Analysis
