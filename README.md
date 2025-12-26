@@ -27,8 +27,13 @@ The GWAS data in this project are from Taylor KE, et al and are availble under a
 - Notebook 3: GWAS Visualization
 - Notebook 4: _IRF5_ Locus Analysis
 
-## Main Findings 
-https://github.com/samvirolainen/Role_of_IRF5_in_Sjogrens_Syndrome/blob/main/results/qq_sjogrens.png
+## Main Findings (also under Results) 
+- QQ Plot: https://github.com/samvirolainen/Role_of_IRF5_in_Sjogrens_Syndrome/blob/main/results/qq_sjogrens.png
+- Manhattan Plot: https://github.com/samvirolainen/Role_of_IRF5_in_Sjogrens_Syndrome/blob/main/results/manhattan_sjogrens.png
+
+## Interpretation of GWAS Plots 
+- QQ plot: most points lie on the diagonal, but at the tail there is a strong deviation from the diagonal to indicate true genetic associations.
+- Manhattan plot: Coherent linkage disequilibrium (LD) blocks form with little random noise, indicating strong agreement among the genetic signals. 
 
 ## Environment
 This project uses a reproducible conda environment (see `environment.yml`):
