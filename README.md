@@ -9,7 +9,7 @@ Primary Sjögren's Syndrome (pSS) is a complex autoimmune disease that is charac
 - Identify genome-wide signficant loci for pSS 
 
 ## Why is this Approach Useful for Drug Development? 
-Population genetics approaches nominate specific genes and pathways that are important in the genetic risk for complex diseases such as pSS. For drug development, this information can be used to inform the development of pre-clinical platforms (in vitro/in vivo/ex vivo models) to validate potential disease targets and pathways. Since autoimmune diseases share common pathways, identifying risk loci for one autoimmune disease is often informative for others. For example, the _IRF5_ locus is also highly associated with risk for Systemic Lupus Erythematosus.  
+Population genetics approaches nominate specific genes and pathways that are important in the genetic risk for complex diseases such as pSS. For drug development, this information can be used to inform the development of pre-clinical platforms (_in vitro/in vivo/ex vivo_ models) to validate potential disease targets and pathways. Since autoimmune diseases share common pathways, identifying risk loci for one autoimmune disease is often informative for others. For example, the _IRF5_ locus is also highly associated with risk for Systemic Lupus Erythematosus.  
 
 ## Data Availability
 - Sjögren's Syndrome GWAS data is pulled from: Taylor KE, et al. Genome-Wide Association Analysis Reveals Genetic Heterogeneity of Sjögren's Syndrome According to Ancestry. Arthritis Rheumatol. 2017 Jun;69(6):1294-1305. doi: 10.1002/art.40040.
