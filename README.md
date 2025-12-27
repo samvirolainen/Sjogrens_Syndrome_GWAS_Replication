@@ -9,7 +9,7 @@ This project reproduces a published GWAS of pSS (PMID: 28076899) and demonstrate
 - Quality Control (QC) of GWAS summary statistics and replication of significant associations
 - Replicate informative plots: Quantile-Quantile (QQ) plot, Manhattan Plot 
 - Identify genome-wide significant loci for pSS
-- Propose pre-clinical strageies to validate the identified targets.
+- Propose pre-clinical strageies to validate the identified targets
   
 ## Why is this Approach Useful for Drug Development? 
 Population genetics approaches nominate specific genes and pathways that are important in the genetic risk for complex diseases such as pSS. For drug development, this information can be used to inform the development of pre-clinical platforms (_in vitro/in vivo/ex vivo_ models) to validate potential disease targets and dissect immune pathways. Since autoimmune diseases share common pathways, identifying risk loci for one autoimmune disease is often informative for others. For example, the _IRF5_ locus is also highly associated with risk for Systemic Lupus Erythematosus, so validation of this target could also guide  indication selection decisions. 
@@ -40,7 +40,7 @@ The GWAS data in this project are from Taylor KE, et al and are availble under a
 
 ## Replicated pSS Risk Loci 
 
-|Locus           | Chromosome | Biological Interpretation | Possible Next Steps for Target Validation 
+|Locus           | Chromosome | Biological Interpretation | Target Validation Strategy 
 | ------------- | ------------- | ----------------------- | ----------------- | 
 | _HLA_  | chr 6  | Encodes Major Histocompatibility Complex (MHC), a key component of antigen presentation in the immune system, highly associated with many autoimmune diseases | Examine how _HLA_ risk haplotypes alter other molecular phenotypes, such as protein abundance (through protein Quantitative Trait Loci, pQTLs). Other studies have associated HLA risk haplotypes with protein abundance: https://www.nature.com/articles/s41467-024-50583-8 , though colocalization methods for the _HLA_ region remain challenging to implement. 
 | _IRF5-TNPO3_ | chr 7  | Encodes IRF5, a transcription factor and key regulator of the Type I Interferon (IFN) pathway, a clinically validated innate immune pathway that drives several autoimmune diseases including pSS | Generate _in vitro_ assays to assess impact of _IRF5_ haplotypes on IFN pathway. A variant-by-variant approach could utilize a luciferase reporter system, while a high-throughput approach (such as a Massively Parallel Reporter Assay) could screen several variants at a time. 
